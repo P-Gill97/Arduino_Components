@@ -1,12 +1,13 @@
 
 
 void setup() {
+  // setup is for configuring arduino 
   // initialize digital pin LED_BUILTIN as an output.
 
   pinMode(LED_BUILTIN, OUTPUT);
 }
 
-// forever loop 
+// manditory(for a sketch) forever loop 
 void loop() {
   // led can alternat between high voltage and low voltage. High meaning on and low 
   // meaning off. 
